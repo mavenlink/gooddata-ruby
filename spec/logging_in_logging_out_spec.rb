@@ -5,7 +5,7 @@
 # LICENSE file in the root directory of this source tree.
 
 require 'gooddata'
-require 'pry'
+# require 'pry'
 
 describe GoodData::Rest::Connection, :constraint => 'slow' do
 

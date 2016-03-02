@@ -4,7 +4,7 @@
 # This source code is licensed under the BSD-style license found in the
 # LICENSE file in the root directory of this source tree.
 
-require 'pry'
+# require 'pry'
 require 'zip'
 
 require_relative '../helpers/global_helpers'
