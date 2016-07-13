@@ -265,7 +265,6 @@ module GoodData
         while response.code == code
           sleep sleep_interval
           GoodData::Rest::Client.retryable(:tries => 3, :refresh_token => proc { connection.refresh_token }) do
-            sleep sleep_interval
             response = get(link, :process => false)
           end
         end
