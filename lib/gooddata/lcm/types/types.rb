@@ -8,5 +8,5 @@ require_relative 'base_type'
 
 require_relative 'scalar/types'
 require_relative 'class/types'
-require_relative 'complex/types'
 require_relative 'special/types'
+require_relative 'complex/types'
